@@ -1,0 +1,8 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    url: jdbc:avatica:remote:url=http://localhost:8888/druid/v2/sql/avatica/;transparent_reconnection=true
+    driver-class-name: org.apache.calcite.avatica.remote.Driver
+
+
